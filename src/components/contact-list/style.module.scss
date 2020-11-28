@@ -1,0 +1,62 @@
+.buttonGroup{
+    // display: flex;
+    // flex-direction: row;
+    width: 340px;
+    border: 1px solid #4caf50;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 9px;
+    background-color: #767d7e;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.show{
+    width: 100px;
+    background-color: rgb(18, 18, 197);
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    outline: none;
+}
+.show:hover{
+    background-color: white;
+    border: 1px solid rgb(18, 18, 197);
+    color: rgb(18, 18, 197);
+    cursor: pointer;
+}
+
+.filter{
+    width: 100px;
+    background-color: darkorange;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    outline: none;
+}
+.filter:hover{
+    background-color: white;
+    border: 1px solid darkorange;
+    color: darkorange;
+    cursor: pointer;
+}
+
+.addUser{
+    width: 100px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    outline: none;
+}
+.addUser:hover{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+    cursor: pointer;
+}
+
+

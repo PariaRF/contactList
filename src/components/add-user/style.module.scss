@@ -1,0 +1,38 @@
+.card{
+    width:300px;
+    height: 198px;
+    border: 1px solid white;
+    margin: 20px;
+    padding-top: 19px;
+    border-radius: 9px;
+    line-height: 35px;
+}
+.space{
+    margin: 10px;
+    font-size: 15px;
+    flex-wrap: nowrap;
+}
+.spaceTwo{
+    margin: 4px;
+    font-size: 15px;
+}
+
+.spaceThree{
+    margin: 22px;
+    font-size: 15px;
+}
+
+.btn{
+    width: 100px;
+    padding: 5px;
+    border-radius: 15px;
+    outline: none;
+    background-color:rgb(80, 80, 25);
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(80, 80, 25);
+    border: 2px solid rgb(80, 80, 25);
+    cursor: pointer;
+}
